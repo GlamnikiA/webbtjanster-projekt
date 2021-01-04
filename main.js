@@ -17,11 +17,10 @@ var pageCounter = 0;
                     renderHTML(data[i]['title'].plain_text + data[i]['date'] + "<br>")
                 }
                 console.log(data);
-                button.style.visibility = "hidden";
+                button.style.visibility = "hidden"
             })
         });
     });
-    console.log("Hello")
 
 function renderHTML(data) {
     container.insertAdjacentHTML('beforeend', data);

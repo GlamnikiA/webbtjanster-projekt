@@ -21,7 +21,7 @@ var pageCounter = 0;
             })
         });
     });
-    dasd
+    console.log("Hello")
 
 function renderHTML(data) {
     container.insertAdjacentHTML('beforeend', data);

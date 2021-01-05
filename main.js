@@ -1,6 +1,5 @@
 var container = document.getElementById("eventlist");
 var button = document.getElementById('btn');
-var pageCounter = 0;
 
     button.addEventListener("click", function () {
         $(document).ready(function() {
@@ -9,19 +8,27 @@ var pageCounter = 0;
                 headers: {"Accept": "application/json"}
             })
             .done(function(data){
-                list = $('events');
+                myFunction(data);
+                var events = $('#eventlist');
                 for (i = 0; i < data.length; i++) {
-                    html = '';
-                    html = '<li id="event_' + i + '">' + data[i]['name'] + '</li>';
-                    list.append(html);
-                    renderHTML(data[i]['title'].plain_text + data[i]['date'] + "<br>")
-                }
+                    html = '<li id="event_' + i + '">' + '<a>' + data[i]['title'].plain_text + '</a>' + '</li>';
+                    events.append(html);
+              }
                 console.log(data);
                 button.style.visibility = "hidden"
             })
         });
     });
+    function myFunction(data) {
 
-function renderHTML(data) {
-    container.insertAdjacentHTML('beforeend', data);
-}
+        var table = document.getElementById('myTable')
+        for(var i = 0; i < data.length; i++) {
+            var row = `<tr>
+            <td>${data[i]['title'].plain_text}</td>
+            <td>${data[i]['occasions'][0].start_date}</td>
+            <td>${data[i]['id']}</td>
+            </tr>`
+            table.innerHTML += row
+        }
+    }
+

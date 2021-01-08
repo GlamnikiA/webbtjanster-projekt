@@ -102,12 +102,14 @@
     </header>
     <div id="btn">
         <button id="button">Hämta Evenemang</button>
+        <button id="button2">Rekommenderade</button>
     </div>  
        <table class="table table-striped">
          <tr class="bg-info">
-             <th>Title</th>
-             <th>Date</th>
-             <th>Id</th>
+             <th onclick="sortTable(0)">Title</th>
+             <th onclick="sortTable(1)">Date</th>
+             <th onclick="sortTable(2)">Id</th>
+             <th>Väder</th>
          </tr>
          <tbody id="myTable">
 
@@ -118,6 +120,7 @@
      <div id="additional-info">
              
     </div>
-     <script src="main.js"></script>
+     <script src="main.js">
+     </script>
 </body>
 </html>

@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -26,10 +27,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.FetchAPIData">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\backend\src\main\resources\static" />
+      <recent name="D:\backend\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ServerRunner">
     <configuration name="FetchAPIData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FetchAPIData" />
+      <module name="backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="backend" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -44,8 +62,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FetchAPIData" />
         <item itemvalue="Application.ServerRunner" />
+        <item itemvalue="Application.FetchAPIData" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

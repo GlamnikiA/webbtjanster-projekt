@@ -1,0 +1,75 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: 100% 100%;
+    flex-wrap: wrap;
+    
+}
+section content {
+    background-color: black;
+}
+h1 {
+}
+.section-wrapper {
+    box-sizing: border-box;
+    padding: 40px;
+    position: relative;
+    width: 100%;
+    background-color: rgba(34,34,34,.5);
+}
+a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 34px;
+     color:white;
+}
+#content-box {
+    color: black;
+}
+td {
+    border: 1px solid black;
+    padding: 10px
+}
+table {
+    border-spacing: 10px;
+     border-collapse: separate;
+     width: 1200px;
+}
+* {
+    margin:0;
+    padding:0;
+}
+#eventlist {
+    color:red;
+}
+.table table-striped {
+    color:red;
+}
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+#btnEvents, #btnRecommended {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

@@ -1,6 +1,12 @@
 
 import java.util.HashMap;
 
+/**
+ * This class represent the weather status for a specific day
+ *
+ * @author Ardian Glamniki, Motaz Kasem
+ */
+
 public class Weather {
     private HashMap<String, Integer> timeToWeather = new HashMap<>();
     private HashMap<String, String> dayToRain = new HashMap<>();

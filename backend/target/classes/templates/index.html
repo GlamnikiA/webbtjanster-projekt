@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvenemangHelsingborg</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+    </script>
+
+</head>
+<body>
+    <header style="background-image: url(images/helsingborgstad.png);">
+        <div class="section-wrapper">
+            <a href="index.html">Evenemangskollen</a>
+            </div>
+    </header>
+    <div id="btn">
+        <button id="btnEvents">Hämta Evenemang</button>
+        <button id="btnRecommended">Rekommenderade</button>
+    </div id="table-container">  
+       <table class="table table-striped">
+         <tr class="bg-info">
+             <th onclick="sortTable(0)">Titel</th>
+             <th onclick="sortTable(1)">Datum</th>
+             <th id="plats" onclick="sortTable(2)">Plats</th>
+             <th id="väder">Väder</th>
+         </tr>
+         <tbody id="eventTable">
+
+         </tbody>
+     </table>
+     <ul id="eventlist">
+     </ul>
+     <div id="additional-info">
+             
+    </div>
+     <script src="Main.js">
+     </script>
+</body>
+</html>
